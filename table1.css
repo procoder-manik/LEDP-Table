@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    margin: 50px 150px;
+    background:linear-gradient(to top left,#fdf5,#cde5);
+}
+
+h1,h2{
+    text-align: center;
+}
+ table,th{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.Table-1,.Table-2,.Table-3{
+    height: 300px;
+    width: 400px;
+ 
+}
+#Tab{
+   display: grid;
+   place-items: center;
+}
+/* Table-2 Color */
+.Table-2 .row-1{ background: #0fd ;}
+.Table-2 .row-2{ background: #0f5;}
+.Table-2 .row-3{ background: #ff0;}
+.Table-2 .row-4{ background: pink;}
+.Table-2 .row-5{ background: skyblue;}
+
+/* Table-3 Color */
+.Table-3 .row-1{ background: skyblue ;}
+
+.Table-3 .row-2{ background: #0f5;}
+    .Table-3 .row-2 th:nth-child(2){background: #ff0;}
+
+.Table-3 .row-3{ background: #0f5;}
+    .Table-3 .row-3 th:nth-child(2){background: #f90;}
+
+.Table-3 .row-4{ background: skyblue;}
+    .Table-3 .row-4 th:nth-child(2){background: #0f0;}
+
+
+.Table-3 .row-5{ background: pink;}
+    .Table-3 .row-5 th:nth-child(2){background: red;}
+
+.Table-3 .row-6{ background: skyblue;}
+ 
+ 
